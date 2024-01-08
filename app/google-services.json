@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "219600301817",
+    "project_id": "searchlearn-44de8",
+    "storage_bucket": "searchlearn-44de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219600301817:android:5cf483a8823827b79c3c28",
+        "android_client_info": {
+          "package_name": "com.example.searchlearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCol-GIE0P3nWDfgz-MFjWudN-P6bpPC0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

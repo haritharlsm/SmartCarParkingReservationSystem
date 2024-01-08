@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/itemTextView"
+         />
+
+    <TextView
+        android:id="@+id/distance1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="139dp"
+        android:layout_toStartOf="@+id/openButton"
+        android:text="Location" />
+
+    <TextView
+        android:id="@+id/countava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="67dp"
+        android:layout_toStartOf="@+id/openButton"
+        android:text=""
+        android:textColor="#4CAF50" />
+
+</RelativeLayout>
